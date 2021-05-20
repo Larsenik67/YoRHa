@@ -9,9 +9,17 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css\index.css">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
         <title>YoRHa • For the Glory of Mankind</title>
     </head>
     <body>
+
+        <!-- <div class="fullscreen-bg">
+            <video muted autoplay id="fullscreen-bg-video">
+                <source src="vhs\Loading.mp4" type="video/mp4">
+            </video>
+        </div> --> 
 
         <div id="content" class="container-fluid">
 
@@ -98,6 +106,13 @@
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+        <script type='text/javascript'>
+            document.getElementById('fullscreen-bg-video').addEventListener('ended', detectEnd, false);
+        
+            function detectEnd(e) {
+                jQuery('.fullscreen-bg').fadeOut(1000,function(){jQuery(this).remove()})
+            }
+        </script>
 
 </body>
 </html>
