@@ -353,6 +353,11 @@ figure > figcaption {
 iframe {
     border: 0.1rem solid #bab5a1;
 }
+
+a:hover {
+    color:#d1cdb7;
+}
+
 .yorha-image{
     max-height: 80%;
     max-width: 80%;
@@ -361,17 +366,20 @@ iframe {
 #menuleft {
     background-color: #454138;
     color: #bab5a1;
-    position: relative;
+    position: fixed;
     text-align: center;
-    height: auto;
+    height: 100%;
     margin: auto;
     padding: auto;
+    z-index: 1;
 }
 
 #main {
     background-image: url("img\MainBackground.jpg");
+    background-repeat: no-repeat;
     position: relative;
     height: auto;
+    padding-left: 20%;
 }
 
 .container-fluid {
@@ -380,4 +388,8 @@ iframe {
 
 .nav .active {
 font-weight: bold;
+}
+
+nav h3 {
+    color: black;
 }
