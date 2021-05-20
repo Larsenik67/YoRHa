@@ -354,15 +354,17 @@ iframe {
     border: 0.1rem solid #bab5a1;
 }
 .yorha-image{
-    background-image: url("img\YoRHa_Logo.png") !important;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 #menuleft {
     background-color: #454138;
     color: #bab5a1;
     position: relative;
-    align-content: center;
+    text-align: center;
     height: auto;
+    margin: auto;
     padding: auto;
 }
 
