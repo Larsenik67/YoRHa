@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css\intro.css">
+
+        <title>YoRHa • For the Glory of Mankind</title>
+    </head>
+    <body>
+
+        <video id="myvid" class="fullscreen-bg-video" autoplay muted>
+            <source src="vhs\Loading.mp4" type="video/mp4" >
+          </video>
+          
+          <!--A skip link and my copyright in a div that I omitted from this post-->
+          
+
+          <script type="text/javascript">
+          video = document.getElementById('myvid');
+          video.addEventListener('ended',function() {     
+          window.location.href = 'index.html';
+          });
+          </script>
+          <script src="js\intro.js"></script>
+    </body>
+</html>
