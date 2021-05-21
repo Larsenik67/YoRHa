@@ -1,3 +1,8 @@
+window.addEventListener('contextmenu', function (e) { 
+    // do something here... 
+    e.preventDefault(); 
+  }, false);
+
 var e = document.getElementById("myvid");
 e.style.opacity = 0;
 
@@ -17,4 +22,5 @@ function fade(element) {
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1 || 0.1;
     }, 25);
+
 }
