@@ -393,3 +393,7 @@ font-weight: bold;
 nav h3 {
     color: black;
 }
+
+#menuleft hr {
+    color: black;
+}
