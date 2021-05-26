@@ -1,6 +1,9 @@
 var e = document.getElementById("myvid");
 e.style.opacity = 0;
 
+window.oncontextmenu = function () {
+    return false;
+ }
 var vid = document.getElementById("myvid");
 vid.oncanplaythrough = function() {
     setTimeout(function() {
