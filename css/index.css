@@ -396,8 +396,8 @@ nav h3 {
     color: black;
 }
 
-#menuleft hr {
-    color: black;
+nav hr {
+    border-top:solid 1px black !important;
 }
 
 .ligne figure {
@@ -417,10 +417,4 @@ nav h3 {
 .register {
     text-align: center;
     max-width: 350px;
-}
-
-/*a réparé
-
-.main-register {
-    text-align: center;
 }
