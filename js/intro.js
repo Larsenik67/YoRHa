@@ -1,3 +1,10 @@
+
+          video = document.getElementById('myvid');
+          video.addEventListener('ended',function() {     
+          window.location.href = 'présentation.html';
+          });
+
+
 var e = document.getElementById("myvid");
 e.style.opacity = 0;
 

@@ -425,3 +425,20 @@ form {
     margin-top: 8%;
     left: 35%;
 }
+
+table, th {
+    text-align: center;
+}
+
+.flotte-droite {
+    float: right;
+}
+
+.flotte-gauche {
+    float: left;
+}
+
+body {
+    background-image: url("img\MainBackground.jpg") !important;
+    background-attachment: scroll;
+}
